@@ -6,6 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,graphql,gql}": [
+      "prettier --write"
+    ],
+    "messages/*.json": [
+      "yarn lint:locales"
+    ]
+  },
   "devDependencies": {
     "@types/jquery": "^3.3.38",
     "@types/node": "^12.12.21",
