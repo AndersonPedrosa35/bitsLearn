@@ -1,0 +1,31 @@
+{
+  "name": "newProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.38",
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.38",
+    "@vtex/prettier-config": "^0.3.6",
+    "eslint": "^7.16.0",
+    "eslint-config-vtex": "^12.9.3",
+    "eslint-config-vtex-react": "^6.3.2",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersonPedrosa35/bitsLearn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersonPedrosa35/bitsLearn/issues"
+  },
+  "homepage": "https://github.com/AndersonPedrosa35/bitsLearn#readme"
+}
